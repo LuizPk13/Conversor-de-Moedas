@@ -27,8 +27,11 @@
       </label>
       <label>
         Para:
-        <select>
-          <option>US$ Dólar Americano</option>
+        <select class="opcao-do-select">
+          <option>Selecione uma moeda</option>
+          <option value="dolar">US$ Dólar Americano</option>
+          <option value="euro">€ Euro</option>
+          <option value="libra">£ Libra</option>
         </select>
       </label>
       <label>
@@ -44,13 +47,12 @@
         </div>
         <img class="seta-img" src="./assets/Seta.png" alt="Seta" />
         <div class="valor-caixa">
-          <img src="./assets/Dolar 1.png" alt="Bandeira dos Estados Unidos" />
-          <p class="moeda">Dólar</p>
-          <p class="valor-moeda">US$ 0,00</p>
+          <img  class="valor-bandeira" src="./assets/Real 1.png" alt="Bandeira dos Estados Unidos" />
+          <p class="moeda" id="nome-do-valor">Dólar</p>
+          <p class="valor-moeda" id="tipo-da-moeda">R$ 0,00</p>
         </div>
       </section>
     </main>
-
     <script src="./scripts.js"></script>
   </body>
 </html>
